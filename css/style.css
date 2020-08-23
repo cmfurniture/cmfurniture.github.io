@@ -1,42 +1,165 @@
 body{
-    margin: 0;
     padding: 0;
-    background-color: #b2ebf2;
-}
-/*  nav bar flexbox*/
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    width: 100%;
 }
 
-
-
-.logo{
-    position: absolute;
-    left: 50px;
-    top: 50px;
+svg{
+    fill: #fff;
+    width: 15rem;
+    height:15rem;
 
 }
-.menu{
-    display: flex;
-    justify-content: space-evenly;
-    position: absolute;
-    right: 50px;
-    top: 50px;
+
+svg:hover{
+    fill: #39374e;
 }
 
-/*navbar menu*/
-.nav-bar ul{
-    list-style: none;
-}
-.nav-bar ul a{
-    text-decoration: none;
-    color: white;
-    padding-right: 20px;
+/* navbar */
+
+.navicon-color{
+    color: #fff;
+    fill: #fff;
 }
 
-.nav-bar ul a span {
-    font-size: 1.5em;
+.navitemsactive{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.navitems{
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navitems:hover{
+    color: #0f3460;
+}
+
+
+/* header */
+.navigation{
+    padding: 5px;
+}
+
+.bannertext{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.bannertext:hover{
+    color:#3f3d56 ;
+}
+
+.bannerimage{
+    width:100%;
+}
+
+.bannerbutton{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+}
+
+.btn1{
+    margin-right: 20px;
+}
+
+
+
+.header-center{
+    margin: 8rem 3.4rem;
+    padding-bottom: 11.3rem;
+}
+
+
+.wholeheader{
+    height: 100%;
+    padding-top: 2rem;
+    background-color: #e94560;
+
+}
+
+
+/* brand name */
+.brandname{
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+}
+
+/* Features section */
+.featurebox{
+    padding: 0% 15% 7%;
+    text-align: center;
+}
+
+
+.feature-icon{
+    padding: auto 50%;
+    color: #6c63ff;
+}
+
+.feature-icon:hover{
+    color: #3f3d56;
+}
+
+.featuretext{
+    margin-top: 2rem;
+}
+
+.featuretext h3{
+    font-weight: 600;
+}
+
+.featuretext p{
+    padding: 0.5rem 3rem 1rem;
+    color: gray;
+}
+
+.featurebox h1{
+    font-size: 3rem;
+    margin-bottom: 10rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+/* product-section */
+
+
+.product-section{
+    padding: 6% 3%;
+    text-align: center;
+    width: 100%;
+    background-color: #6c63ff;
+    color: #fff;
+}
+
+.product-section h1{
+    font-size: 3rem;
+}
+
+
+/* connect */
+
+.connect{
+    margin: 2% 5%;
+    text-align: start;
+}
+
+.contactinfo{
+    font-size: 2rem;
+    margin: 4rem 3rem;
 }
