@@ -95,7 +95,7 @@ svg:hover{
 .wholeheader{
     height: 100%;
     padding-top: 2rem;
-    background-color: #6c63ff;
+    background-color: #bd2130;
 
 }
 
@@ -118,7 +118,7 @@ svg:hover{
 
 .feature-icon{
     padding: auto 50%;
-    color: #6c63ff;
+    color: #bd2130;
 }
 
 .feature-icon:hover{
@@ -152,7 +152,7 @@ svg:hover{
     padding: 6% 3%;
     text-align: center;
     width: 100%;
-    background-color: #6c63ff;
+    background-color: #bd2130;
     color: #fff;
 }
 
