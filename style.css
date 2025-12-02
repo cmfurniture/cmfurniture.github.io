@@ -329,6 +329,11 @@ a {
     margin-bottom: 1.5rem;
 }
 
+
+.col-lg-4 .text-muted {
+    color: var(--white) !important;
+}
+
 .footer-links {
     list-style: none;
     padding: 0;
@@ -337,6 +342,7 @@ a {
 .footer-links li {
     margin-bottom: 1rem;
 }
+
 
 .footer-links a:hover {
     color: var(--accent);
